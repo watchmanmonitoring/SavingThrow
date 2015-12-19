@@ -73,7 +73,7 @@ NEFARIOUS_FILE_SOURCES = []
 
 # Include Apple's identified Adware files by default.
 # https://support.apple.com/en-us/ht203987
-HT203987_URL = "https://raw.githubusercontent.com/SavingThrows/AdwareDefinitionFiles/master/Apple-HT203987.adf"  # pylint: disable=line-too-long
+HT203987_URL = "https://raw.githubusercontent.com/SavingThrows/AdwareDefinitionFiles/AdwareDefinitionFiles/master/Apple-HT203987.adf"  # pylint: disable=line-too-long
 NEFARIOUS_FILE_SOURCES.append(HT203987_URL)
 
 CACHE = "/Library/Application Support/SavingThrow"
